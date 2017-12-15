@@ -300,6 +300,10 @@ These are the available config options for making requests. Only the `url` is re
   // `maxContentLength` defines the max size of the http response content allowed
   maxContentLength: 2000,
 
+  // `errorLevel` set error handling level
+  // by default axios will pass network errors only
+  errorLevel: all,
+
   // `validateStatus` defines whether to resolve or reject the promise for a given
   // HTTP response status code. If `validateStatus` returns `true` (or is set to `null`
   // or `undefined`), the promise will be resolved; otherwise, the promise will be
